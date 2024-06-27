@@ -3,76 +3,77 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="reset.css"/>
+      <link rel="stylesheet" href="styles.css"/>
       <title>Mi Primer Sitio Web</title>
    </head>
    <body>
       <header>
-        <h1>TOP MUSIC</h1>
-        <div>
-            <span>TOP Global</span>
-            <span>TOP México</span>
-            <span>NOTICIAS</span>
-            <span>RADIO</span>
+        <div id="top">
+            <h1 id="principal">TOP MUSIC</h1>
+            <div id="bar">
+                <p class="option">TOP GLOBAL</p>
+                <p class="option">TOP MEXICO</p>
+                <p class="option">RADIO</p>
+                <p class="option">NOTICIAS</p>
+            </div>
         </div>
       </header>
-      <hr />
+
       <main>
+
         <section>
+            <h2 class="title">Nuestra recomendacion semanal:</h2>
+            <div id="news">
+                <div class="box">
+                    <img src="./Sabrina Carpenter.jpg" id="artist-week"/>
+                </div>
+                <div class="box">
+                    <h3 class="subtitle">Sabrina Carpenter</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur quis minima quae expedita magnam, accusantium ad quasi delectus maiores dolores exercitationem itaque nihil. Itaque maxime excepturi nemo tenetur nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur quis minima quae expedita magnam.  </p>
+                </div>
+            </div>
+        </section>
+
+            <hr />
+
             <article>
-                <h2>Nuestra recomendacion semanal:</h2>
-                <h3>Sabrina Carpenter</h3>
-                <img src="./Sabrina Carpenter.jpg" />
-                <div>
-                    <p>Su carrera despego despues de 10 años...</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tenetur quis minima quae expedita magnam, accusantium ad quasi delectus maiores dolores exercitationem itaque nihil. Itaque maxime excepturi nemo tenetur nesciunt.</p>
+                <h2 class="title">Albumes de la semana</h2>
+                <div id="record-box">
+                    <div class="record-card">
+                        <p class="subtitle">The Rise and Fall of a Midwest Princess - Chappel Roan</p>
+                        <img src="./Chappel Roan.jpg" class="record"/>
+                    </div>
+                    <div class="record-card">
+                        <p class="subtitle">BRAT - Charlie XCX</p>
+                        <img src="./brat.jpg" class="record"/>
+                    </div>
+                    <div class="record-card">
+                        <p class="subtitle">Fireworks & Rollerblades - Benson Bone</p>
+                        <img src="Fireworks and Rollerblades.jpg" class="record"/>
+                    </div>
                 </div>
             </article>
             <hr />
             <article>
-                <h2>Albumes de la semana</h2>
-                <ul>
-                    <div>
-                        <li>The Rise and Fall of a Midwest Princess - Chappel Roan</li>
-                    <li>
-                        <img src="./Chappel Roan.jpg" 
-                        width="200"
-                        height="200"/>
-                    </li>
-                    </div>
-                    <div>
-                        <li>BRAT - Charlie XCX</li>
-                        <li>
-                            <img src="./brat.jpg"/
-                            widt="200"
-                            height="200">
-                        </li>
-                    </div>
-                    <div>
-                        <li>Fireworks & Rollerblades - Benson Bone</li>
-                        <li><img src="Fireworks and Rollerblades.jpg"
-                        width="200"
-                        height="200">
-                        </li>
-                    </div>
-                </ul>
-            </article>
-            <hr />
-            <article>
-                <h2>Top 5 canciones de la semana</h2>
-                <ol>
-                    <li>Please, please, please - Sabrina Carpenter</li>
-                    <li>I had some help - Post Malone</li>
-                    <li>A bar song (Tipsy) - Shaboozey</li>
-                    <li>Espresso - Sabrina Carpenter</li>
-                    <li>Million dollar baby - Tommy Richman</li>
+                <h2 class="title">Top 5 canciones de la semana</h2>
+                <ol class="singles">
+                    <li>1.- Please, please, please - Sabrina Carpenter</li>
+                    <li>2.- I had some help - Post Malone</li>
+                    <li>3.- A bar song (Tipsy) - Shaboozey</li>
+                    <li>4.- Espresso - Sabrina Carpenter</li>
+                    <li>5.- Million dollar baby - Tommy Richman</li>
                 </ol>
             </article>
-        </section>
+
+            <hr />
+
       </main>
-      <hr />
       <footer>
-        <h3>Tienes alguna recomendacion para nuestra radio?</h3>
-        <a href="./contacto.html">CONTACTANOS!!!</a>
+        <div id="final">
+            <h3 class="subtitle">Tienes alguna recomendacion para nuestra radio?</h3>
+            <a class="link" href="./contacto.html">CONTACTANOS!!!</a>
+        </div>
       </footer>
    </body>
 </html>

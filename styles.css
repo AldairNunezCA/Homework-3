@@ -1,0 +1,121 @@
+body {
+    background-color: 	#c2cad7;
+}
+
+#top {
+    background-color: #f94c57;
+    display: flex;
+    flex-direction: column;
+}
+
+#bar {
+    display: flex;
+    justify-content:space-around;
+}
+
+.option{
+    width: 25vw;
+    transition:0s;
+    display: flex;
+    padding: 0.5em;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.option:hover{
+    background-color: #ff0011;
+    color: #c2cad7;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+#principal {
+    display: flex;
+   justify-content: center;
+   font-size: 3.5em;
+   padding: .5em;
+}
+
+
+.title {
+    background-color: #31406e;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color: #c2cad7;
+}
+
+#news {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2em 3em 2em 3em;
+}
+
+.box {
+    background-color: #31406e;
+    padding: 3em;
+}
+
+.text {
+    font-size: 1.2em;
+}
+
+#record-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#artist-week {
+    width: f;
+}
+
+.subtitle{
+    font-size: 2em;
+}
+
+.record {
+    width: 300px;
+    height: 300px;
+}
+
+.record-card {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin: 3em;
+    padding: 1em;
+    font-weight: bold;
+    text-align: center;
+    transition: 2s;
+}
+
+.record-card:hover {
+    background-color: #9e6297;
+}
+
+.singles {  
+    font-size: 2em;
+    font-weight: bold;
+    margin: 2em;
+}
+
+#final {
+    background-color: #f94c57;
+    padding: 2em 0em 2em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.link {
+    font-size: 2em;
+    transition: 0s;
+}
+
+.link:hover {
+    color: #c2cad7;
+    font-weight: bolder;
+    font-size: 2.5em;
+}

@@ -1,0 +1,82 @@
+/* reset.css */
+
+/* Elimina margen, relleno y borde predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegura que todos los elementos tengan bordes iguales */
+html, body {
+    height: 100%;
+    font-size: 100%;
+    line-height: 1.15;
+    font-family: Arial, sans-serif;
+    color: #000;
+    background: #fff;
+}
+
+/* Elimina la decoración de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Hace que las listas no tengan estilo y eliminen el margen/padding */
+ul, ol {
+    list-style: none;
+}
+
+/* Restablece el estilo de tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Hace que las imágenes no excedan el ancho de su contenedor */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+/* Restablece los formularios */
+input, button, textarea, select {
+    font: inherit;
+    color: inherit;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/* Asegura que los botones no tengan apariencia predeterminada */
+button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+}
+
+/* Resetea el estilo de figuras */
+figure {
+    margin: 0;
+}
+
+/* Resetea el estilo de citas */
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* Añade estilos predeterminados para la caja de contenido */
+article, aside, footer, header, nav, section {
+    display: block;
+}
+
+/* Normaliza el comportamiento de los elementos HTML5 en navegadores más antiguos */
+main {
+    display: block;
+}
